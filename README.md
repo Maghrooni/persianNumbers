@@ -16,13 +16,13 @@ $.persianNumbers is a free jQuery plugin that allows you to convert numbers in y
 ###Usage Example
 after including plugin in your Code you can use it as follows : 
 ```javascript
-\\simple number conversion
+//simple number conversion
 alert($.persianNumbers(9))
 
-\\string containing numbers
+//string containing numbers
 alert($.persianNumbers("T9080 is a 2014 Model !"))
 
-\\passing html content and replace numbers in it ! 
+//passing html content and replace numbers in it ! 
 var div = $('#persianDiv');
 div.html($.persianNumbers(div.html()));
 ```
