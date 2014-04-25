@@ -20,11 +20,8 @@ after including plugin in your Code you can use it as follows :
 alert($.persianNumbers(9))
 
 //string containing numbers
-alert($.persianNumbers("T9080 is a 2014 Model !"))
+alert($.persianNumbers("این متن شامل اعداد1234 فارسی می باشد 12344"))
 
-//passing html content and replace numbers in it ! 
-var div = $('#persianDiv');
-div.html($.persianNumbers(div.html()));
 ```
 
 [Visit My Website]
